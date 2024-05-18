@@ -14,7 +14,7 @@ struct TabBarView: View {
             (HomeView())
                 .tabItem {
                     Image(systemName: "house")
-                    Text("Home")
+                    Text("Inicio")
                 }
                 .tag(1)
         })

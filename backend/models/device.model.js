@@ -7,7 +7,15 @@ const deviceSchema = new mongoose.Schema({
     unique: true,
   },
   status: {
+    type: Boolean,
+    required: true,
+  },
+  ip: {
     type: String,
+    required: true,
+  },
+  consumption: {
+    type: Number,
     required: true,
   }
 });

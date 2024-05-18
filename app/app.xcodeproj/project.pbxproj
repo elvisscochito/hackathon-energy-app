@@ -18,6 +18,10 @@
 		EDD0A5DF2BF8C24800508909 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0A5DE2BF8C24800508909 /* PageModel.swift */; };
 		EDD0A5E12BF8C26800508909 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0A5E02BF8C26800508909 /* PageView.swift */; };
 		EDD0A5E32BF8C29000508909 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0A5E22BF8C29000508909 /* TabBarView.swift */; };
+		EDD0A5E52BF8D0EE00508909 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0A5E42BF8D0EE00508909 /* DeviceModel.swift */; };
+		EDD0A5E72BF8D37F00508909 /* DeviceDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0A5E62BF8D37F00508909 /* DeviceDetailsView.swift */; };
+		EDD0A5E92BF8D51800508909 /* DeviceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0A5E82BF8D51800508909 /* DeviceCardView.swift */; };
+		EDD0A5EB2BF8D5AD00508909 /* NewDeviceSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0A5EA2BF8D5AD00508909 /* NewDeviceSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,10 @@
 		EDD0A5DE2BF8C24800508909 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
 		EDD0A5E02BF8C26800508909 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		EDD0A5E22BF8C29000508909 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		EDD0A5E42BF8D0EE00508909 /* DeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
+		EDD0A5E62BF8D37F00508909 /* DeviceDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetailsView.swift; sourceTree = "<group>"; };
+		EDD0A5E82BF8D51800508909 /* DeviceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCardView.swift; sourceTree = "<group>"; };
+		EDD0A5EA2BF8D5AD00508909 /* NewDeviceSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDeviceSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,10 @@
 				EDD0A5E02BF8C26800508909 /* PageView.swift */,
 				EDD0A5E22BF8C29000508909 /* TabBarView.swift */,
 				EDD0A5DC2BF8C21800508909 /* HomeView.swift */,
+				EDD0A5EA2BF8D5AD00508909 /* NewDeviceSheetView.swift */,
+				EDD0A5E82BF8D51800508909 /* DeviceCardView.swift */,
+				EDD0A5E62BF8D37F00508909 /* DeviceDetailsView.swift */,
+				EDD0A5E42BF8D0EE00508909 /* DeviceModel.swift */,
 				EDD0A5B62BF8C11B00508909 /* Assets.xcassets */,
 				EDD0A5B82BF8C11B00508909 /* Preview Content */,
 			);
@@ -271,8 +283,12 @@
 			files = (
 				EDD0A5E12BF8C26800508909 /* PageView.swift in Sources */,
 				EDD0A5DF2BF8C24800508909 /* PageModel.swift in Sources */,
+				EDD0A5E52BF8D0EE00508909 /* DeviceModel.swift in Sources */,
+				EDD0A5E72BF8D37F00508909 /* DeviceDetailsView.swift in Sources */,
+				EDD0A5E92BF8D51800508909 /* DeviceCardView.swift in Sources */,
 				EDD0A5DD2BF8C21800508909 /* HomeView.swift in Sources */,
 				EDD0A5B52BF8C11A00508909 /* ContentView.swift in Sources */,
+				EDD0A5EB2BF8D5AD00508909 /* NewDeviceSheetView.swift in Sources */,
 				EDD0A5E32BF8C29000508909 /* TabBarView.swift in Sources */,
 				EDD0A5B32BF8C11A00508909 /* appApp.swift in Sources */,
 			);

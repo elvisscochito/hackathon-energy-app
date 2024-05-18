@@ -49,12 +49,12 @@ struct ContentView: View {
                             }
                         }) {
                             if (currentPageIndex < pages.count - 1) {
-                                Text("Next")
+                                Text("Siguiente")
                                     .foregroundColor(.orange)
                                 Image(systemName: "arrow.forward")
                                     .accentColor(.orange)
                             } else {
-                                Text("Start")
+                                Text("Empezar")
                                     .foregroundColor(.orange)
                                 Image(systemName: "arrow.right.circle.fill")
                                     .accentColor(.orange)

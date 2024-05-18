@@ -16,8 +16,8 @@ struct PageModel: Identifiable, Equatable {
     static var defaultPage = PageModel(title: "Title", headline: "Aa", pageNumber: 0)
     
     static var samplePages: [PageModel] = [
-        PageModel(title: "Aa", headline: "Aa", pageNumber: 0),
-        PageModel(title: "Aa", headline: "Aa", pageNumber: 1),
-        PageModel(title: "Aa", headline: "Aa", pageNumber: 2)
+        PageModel(title: "Ahorra energía", headline: "Apagando dispositivos que no usas", pageNumber: 0),
+        PageModel(title: "Consulta", headline: "Mira lo que gasta cada dispositivo en consumo energético", pageNumber: 1),
+        PageModel(title: "Agrega", headline: "Agrega dispositivos a tu red domestica", pageNumber: 2)
     ]
 }

@@ -1,6 +1,6 @@
 import deviceModel from '../models/device.model.js';
 
-export const createDevice = async (req, res) => {
+export const postDevice = async (req, res) => {
   try {
     const device = await deviceModel.create(req.body);
     res.status(201).json(device);
